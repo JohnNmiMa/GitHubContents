@@ -13,17 +13,32 @@ header {
 }
 
 header ul li {
-	display: inline-block;
-	padding-left: 30px;
 	line-height: 50px;
 	height: 50px;
 	text-transform: uppercase;
 	font-size: 62.5%;
 }
 
+header ul li.githubButton {
+	float: left;
+	padding-left: 30px;
+}
+
+header ul li.mailButton {
+	float: right;
+	padding: 0 30px 0 30px;
+	background: #60c933;
+	color:#fff;
+}
+
 header ul li a {
 	text-decoration: none;
 	color:#222;
+}
+
+header ul li.mailButton a {
+	text-decoration: none;
+	color:#fff;
 }
 
 header ul li a:hover {
