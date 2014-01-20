@@ -23,9 +23,9 @@
 			<div id="Thinkful">
 				<h2>Thinkful Work</h2><br>
 				<ul>
-					<p>This was the first HTML project where we were to re create the Google.com home page. This was to exercise our learning of HTML and CSS.</p>
+					<p>This was the first HTML project where we were to recreate the Google.com home page. This was to exercise our learning of HTML and CSS.</p>
 					<li><a href="http://jettagozoom.github.io/GoogleClone/" target="_blank">Google Clone</a></li>
-					<p>The assignment was to re create the 32signals.com home page. Here we were introduced to jQuery and Javascript. Our first dynamic web page!</p>
+					<p>The assignment was to recreate the 32signals.com home page. Here we were introduced to jQuery and Javascript. Our first dynamic web page!</p>
 					<li><a href="http://jettagozoom.github.io/37signals/" target="_blank">32signals</a></li>
 					<p>This assignment delved deeper into Javascript. Here we created constructors for classes containing public and private methods and variables.</p>
 					<li><a href="http://jettagozoom.github.io/HotOrCold/" target="_blank">Hot or Cold Game</a></li>
@@ -33,6 +33,8 @@
 					<li><a href="http://jettagozoom.github.io/ShoppingList/" target="_blank">Shopping List</a></li>
 					<p>This is a project that I started for the Shopping List assignment. I wanted to create multiple lists, where each list would allow the user to put in items unique to that list. This was quite a bit more involved. It is working, but I still want to be able to delete lists as well as make the UI more interesting.</p>
 					<li><a href="http://jettagozoom.github.io/ShoppingLists/" target="_blank">Shopping Lists</a></li>
+					<p></p>
+					<li><a href="http://jettagozoom.github.io/Quizalator/" target="_blank">Quizalator</a></li>
 				</ul>
 			</div>
 		</div>
