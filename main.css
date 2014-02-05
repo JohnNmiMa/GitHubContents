@@ -1,87 +1,93 @@
 body {
 	font-family: "proxima-nova", Helvetica, sans-serif;
 	font-weight: 400;
-	color:#222;
+	color:#444;
 }
 
 header {
-	position: relative;
-	height:50px;
 	font-size: 1.6rem;
 	width: 100%;
-	border-bottom: 1px solid #ccc;
 }
 
-header ul li {
-	line-height: 50px;
-	height: 50px;
-	text-transform: uppercase;
-	font-size: 62.5%;
-}
+	header .top {
+		position: relative;
+		height: 50px;
+		border-bottom: 1px solid #ccc;
+	}
 
-header ul li.githubButton {
-	float: left;
-	padding-left: 30px;
-}
+		header .top ul li {
+			line-height: 50px;
+			text-transform: uppercase;
+			font-size: 62.5%;
+		}
 
-header ul li.mailButton {
-	float: right;
-	padding: 0 30px 0 30px;
-	background: #60c933;
-	color:#fff;
-}
+		header .top ul li.githubButton {
+			position:absolute;
+			left:0;
+			margin-left:30px;
+		}
 
-header ul li a {
-	text-decoration: none;
-	color:#222;
-}
+		header .top ul li.mailButton {
+			position:absolute;
+			right:0;
+			margin-right:30px;
+			padding: 0 30px 0 30px;
+			background: #60c933;
+			color:#fff;
+		}
 
-header ul li.mailButton a {
-	text-decoration: none;
-	color:#fff;
-}
+		header .top ul li a {
+			text-decoration: none;
+			color:#444;
+		}
 
-header ul li a:hover {
-	opacity: 0.7;
-}
+		header .top ul li.mailButton a {
+			text-decoration: none;
+			color:#fff;
+		}
 
-#content {
-	max-width: 800px;
-	margin:auto;
-	padding:2rem;
-}
+		header .top ul li a:hover {
+			opacity: 0.7;
+		}
 
-#githubTitle {
-	display: inline-block;
-	font-weight: 700;
-	font-size: 40px;
-}
+	.container {
+		margin:0 auto;
+		min-width:400px;
+		max-width:650px;
+	}
 
-#dateUpdated {
-	font-weight: 400;
-	font-size: 10pt;
-	text-transform: uppercase;
-	margin-top: 20px;
-}
+		#portfolioTitle {
+			display: inline-block;
+			margin: 75px 0 25px 0;
+			font-weight: 700;
+			font-size: 40px;
+		}
 
-#Thinkful {
-	margin-top: 30px;
-	margin-left: 30px;
-}
+		#dateUpdated {
+			font-weight: 400;
+			font-size: 10pt;
+			text-transform: uppercase;
+		}
 
-#content ul {
-	/*margin:30px;*/
-}
+	.content {
+		margin:auto;
+	}
 
-#content ul li {
-	margin:10px 0 15px 20px;
-}
+		.content .title {
+			padding: 10px 10px 10px 23px;
+			border-left: 7px solid #eee;
+			margin: 40px -30px 30px -30px;
+		}
 
-#content li a {
-	text-decoration: none;
-	color:#222;
-}
+		.content ul li {
+			margin:10px 0 15px 20px;
+		}
 
-#content li a:hover {
-	color:#4183c4;
-}
+			.content li a {
+				text-decoration: none;
+				color:#444;
+			}
+
+			.content li a:hover {
+				color:#41b7d8;
+			}
